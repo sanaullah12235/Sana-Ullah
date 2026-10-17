@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Sana Ullah — Full-Stack Web Developer">
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0v60" fill="none" stroke="#16181D" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="m">
+      <rect width="1200" height="630" fill="url(#fade)"/>
+    </mask>
+  </defs>
+
+  <rect width="1200" height="630" fill="#08090B"/>
+  <rect width="1200" height="630" fill="url(#grid)" mask="url(#m)"/>
+
+  <!-- accent rule -->
+  <rect x="80" y="128" width="64" height="3" fill="#C6FF4D"/>
+
+  <text x="80" y="104" font-family="ui-monospace, SFMono-Regular, Consolas, monospace"
+        font-size="20" letter-spacing="6" fill="#7E828B">FULL-STACK WEB DEVELOPER</text>
+
+  <text x="80" y="290" font-family="Space Grotesk, Segoe UI, system-ui, sans-serif"
+        font-size="118" font-weight="500" letter-spacing="-5" fill="#EDEae3">Sana Ullah</text>
+
+  <text x="80" y="380" font-family="Space Grotesk, Segoe UI, system-ui, sans-serif"
+        font-size="54" font-weight="500" letter-spacing="-2" fill="#7E828B">I build digital experiences</text>
+  <text x="80" y="440" font-family="Space Grotesk, Segoe UI, system-ui, sans-serif"
+        font-size="54" font-weight="500" letter-spacing="-2" fill="#7E828B">that feel <tspan fill="#C6FF4D">different.</tspan></text>
+
+  <line x1="80" y1="510" x2="1120" y2="510" stroke="#21242A" stroke-width="1"/>
+  <text x="80" y="556" font-family="ui-monospace, SFMono-Regular, Consolas, monospace"
+        font-size="19" letter-spacing="4" fill="#54585F">REACT · NODE.JS · MONGODB · WORDPRESS · TAILWIND</text>
+  <text x="80" y="590" font-family="ui-monospace, SFMono-Regular, Consolas, monospace"
+        font-size="19" letter-spacing="4" fill="#54585F">BASED IN PAKISTAN · WORKING WORLDWIDE</text>
+
+  <!-- corner marks -->
+  <path d="M80 96V72h24M1120 72h24v24M1120 534v24h-24M80 558h24v-24"
+        fill="none" stroke="#C6FF4D" stroke-opacity="0.55" stroke-width="2"/>
+</svg>

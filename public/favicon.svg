@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="SU monogram">
+  <rect width="64" height="64" fill="#08090B"/>
+  <rect x="1" y="1" width="62" height="62" fill="none" stroke="#21242A" stroke-width="2"/>
+  <text
+    x="32"
+    y="45"
+    text-anchor="middle"
+    font-family="Space Grotesk, Segoe UI, system-ui, sans-serif"
+    font-size="34"
+    font-weight="500"
+    letter-spacing="-2.5"
+    fill="#EDEae3"
+  >SU</text>
+  <circle cx="53" cy="45" r="3" fill="#C6FF4D"/>
+</svg>

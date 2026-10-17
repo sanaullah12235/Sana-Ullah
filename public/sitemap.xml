@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This sitemap is a template and is not advertised in robots.txt.
+
+  <loc> must be an absolute URL, and there is no public domain yet. Replace
+  the placeholder host before deploying, then re-enable the Sitemap line in
+  robots.txt. A sitemap pointing at a domain you do not control would send
+  search engines to someone else's page.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://YOUR-DOMAIN/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

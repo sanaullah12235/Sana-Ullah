@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+<!--
+  The Sitemap line is intentionally omitted.
+
+  A sitemap must contain absolute URLs, and there is no public domain yet, so
+  any host we put here would be someone else's site. Pointing Google at a
+  sitemap for a domain you do not control is worse than having no sitemap.
+
+  When you deploy, uncomment this and replace the host:
+
+  Sitemap: https://YOUR-DOMAIN/sitemap.xml
+-->

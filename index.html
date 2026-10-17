@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- ================= Primary ================= -->
+    <title>Sana Ullah — Full-Stack Web Developer</title>
+    <meta
+      name="description"
+      content="Sana Ullah is a full-stack web developer and BS Computer Science student at HITEC University, building fast, responsive and thoughtfully designed websites with React, Node.js and modern web technologies."
+    />
+    <meta
+      name="keywords"
+      content="Sana Ullah, full stack web developer, React developer, MERN stack developer, frontend developer Pakistan, Node.js developer, MongoDB developer, WordPress developer, responsive web design, HITEC University computer science"
+    />
+    <meta name="author" content="Sana Ullah" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#08090B" />
+    <!-- No <link rel="canonical"> on purpose: there is no public domain yet.
+         A canonical pointing at a URL you do not control tells search engines
+         to index someone else's page. Add one when you deploy, e.g.
+         <link rel="canonical" href="https://YOUR-DOMAIN/" /> -->
+
+    <!-- ================= Colour scheme =================
+         Runs before first paint so the page never flashes the wrong scheme.
+         The stored choice wins; otherwise the OS preference decides. -->
+    <script>
+      ;(function () {
+        try {
+          var stored = localStorage.getItem('su-theme')
+          var theme =
+            stored === 'light' || stored === 'dark'
+              ? stored
+              : window.matchMedia('(prefers-color-scheme: light)').matches
+                ? 'light'
+                : 'dark'
+          var root = document.documentElement
+          root.dataset.theme = theme
+          root.style.colorScheme = theme
+          var meta = document.querySelector('meta[name="theme-color"]')
+          if (meta) meta.setAttribute('content', theme === 'light' ? '#F5F3EE' : '#08090B')
+        } catch (e) {
+          /* private mode / storage blocked — dark stays as the default */
+        }
+      })()
+    </script>
+
+    <!-- ================= Open Graph ================= -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Sana Ullah" />
+    <meta property="og:locale" content="en_US" />
+    <!-- og:url is omitted: it must be absolute, and there is no public origin yet. -->
+    <meta property="og:title" content="Sana Ullah — Full-Stack Web Developer" />
+    <meta
+      property="og:description"
+      content="Full-stack web developer crafting fast, thoughtful, and interactive digital experiences with modern technologies."
+    />
+    <meta property="og:image" content="/og-image.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Sana Ullah — Full-Stack Web Developer" />
+
+    <!-- ================= Twitter ================= -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sana Ullah — Full-Stack Web Developer" />
+    <meta
+      name="twitter:description"
+      content="Full-stack web developer crafting fast, thoughtful, and interactive digital experiences with modern technologies."
+    />
+    <meta name="twitter:image" content="/og-image.svg" />
+
+    <!-- ================= Icons ================= -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="mask-icon" href="/favicon.svg" color="#C6FF4D" />
+
+    <!-- ================= Fonts =================
+         Preconnect first, then a single stylesheet request, then the module
+         bundle. font-display=swap keeps text visible while the webfont loads. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap"
+    />
+
+    <!-- ================= Structured data ================= -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sana Ullah",
+        "jobTitle": "Full-Stack Web Developer",
+        "description": "Full-stack web developer and BS Computer Science student at HITEC University, specialising in the MERN stack, modern frontend development and responsive web design.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "PK"
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "HITEC University"
+        },
+        "knowsAbout": [
+          "Full-Stack Development",
+          "React.js",
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "WordPress",
+          "Responsive Web Design"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <!-- Pinned to its own dark surface on purpose. Inheriting the page
+           background would put near-white text on near-white paper in the
+           light scheme, hiding this fallback from exactly the users who hit it. -->
+      <div
+        style="
+          max-width: 42rem;
+          margin: 4rem auto;
+          padding: 2rem 1.5rem;
+          background: #08090b;
+          color: #edeae3;
+          font-family: system-ui, sans-serif;
+          line-height: 1.6;
+        "
+      >
+        <h1 style="font-size: 1.75rem; margin-bottom: 1rem">Sana Ullah</h1>
+        <p style="margin-bottom: 1rem">
+          Full-Stack Web Developer — BS Computer Science, HITEC University.
+        </p>
+        <p style="margin-bottom: 1rem">
+          This portfolio uses JavaScript for its scroll animations. The written
+          content is still fully available:
+        </p>
+        <ul style="padding-left: 1.25rem; margin-bottom: 0">
+          <li>Kasa Bella Salon &amp; Spa — kasabellasalon.vercel.app</li>
+          <li>Dubai Prime Technical — dubaiprimetechnical.com</li>
+          <li>VexoraTech — vexora-seven.vercel.app</li>
+          <li>HITEC University Portal — academic project</li>
+        </ul>
+        <p style="margin-top: 1.5rem; margin-bottom: 0">
+          Focus: MERN Stack, React, Node.js, Express, MongoDB, WordPress and
+          responsive web design. Based in Pakistan, working worldwide.
+        </p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
